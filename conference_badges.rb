@@ -10,5 +10,5 @@ end
 
 def assign_rooms(stuff)
   # binding.pry
-  names.map {|name, room| "Hello, " + name +"! You'll"}
+  names.map {|name, room| "Hello, " + name +"! You'll be assigned to room " + (room + 1).to_s + "!"}
 end

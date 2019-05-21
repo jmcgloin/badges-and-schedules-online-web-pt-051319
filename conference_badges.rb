@@ -1,7 +1,9 @@
 require "pry"
 
 def badge_maker(name)
-# binding.pry
 "Hello, my name is " + name + "."
 end
 
+def batch_badge_creator(stuff)
+  binding.pry
+end

@@ -9,5 +9,6 @@ def batch_badge_creator(names)
 end
 
 def assign_rooms(stuff)
-  binding.pry
+  # binding.pry
+  names.map {|name, room| "Hello, " + name +"! You'll"}
 end
